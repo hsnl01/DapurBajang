@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapur Bajang | Rasakan Serunya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Dapur<span class="highlight">Bajang</span>.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Nongkrong Asik.<br>Perut Kenyang.</h1>
+            <p>Spot healing terbaik buat lo yang butuh 'me time' atau gibah time bareng bestie.</p>
+            <a href="#" id="ctaBtn" class="btn btn-primary">Pesan Sekarang <i class="fas fa-utensils"></i></a>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Menu Andalan</h2>
+
+            <!-- Filters -->
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="food">Menu Utama</button>
+                <button class="filter-btn" data-filter="cemilan">Cemilan</button>
+                <button class="filter-btn" data-filter="drink">Minuman</button>
+            </div>
+
+            <!-- (Existing Menu Grid Content preserved) -->
+            <div class="menu-grid">
+                <!-- ... existing items ... -->
+
+
+                <!-- MAIN COURSE -->
+                <!-- Seafood Mix -->
+                <!-- Seafood Mix -->
+                <div class="menu-item" data-category="food" data-name="Seafood Mix" data-price="35000">
+                    <div class="img-container">
+                        <img src="images/seafood_mix.jpg" alt="Seafood Mix">
+                        <span class="badge">Best Seller</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Seafood Mix</h3>
+                            <span class="price">Rp 35.000</span>
+                        </div>
+                        <p>Kombinasi fresh seafood pilihan dalam satu piring, disiram saus spesial yang kaya rasa!</p>
+                        <!-- Only Display -->
+                    </div>
+                </div>
+
+                <!-- Ikan Nila -->
+                <!-- Ikan Nila -->
+                <div class="menu-item" data-category="food" data-name="Nasi + Ikan Nila" data-price="18000">
+                    <div class="img-container">
+                        <img src="images/ikan_nila.jpeg" alt="Nasi + Ikan Nila">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Nasi + Ikan Nila</h3>
+                            <span class="price">Rp 18.000</span>
+                        </div>
+                        <p>Nasi hangat dan ikan nila goreng krispi, lengkap dengan sambel ulek segar. Simpel tapi Juara!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Ayam Bakar -->
+                <!-- Ayam Bakar -->
+                <div class="menu-item" data-category="food" data-name="Nasi + Ayam Bakar" data-price="22000">
+                    <div class="img-container">
+                        <img src="images/ayam_bakar.jpg" alt="Nasi + Ayam Bakar">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Nasi + Ayam Bakar</h3>
+                            <span class="price">Rp 22.000</span>
+                        </div>
+                        <p>Segarnya ikan pilihan dalam kuah kuning kaya rempah yang gurih sangat menggugah selera!</p>
+                    </div>
+                </div>
+
+                <!-- Ikan Kuah Kuning -->
+                <!-- Ikan Kuah Kuning -->
+                <div class="menu-item" data-category="food" data-name="Ikan Kuah Kuning" data-price="18000">
+                    <div class="img-container">
+                        <img src="images/ikan_kuah_kuning.jpeg" alt="Ikan Kuah Kuning">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Ikan Kuah Kuning</h3>
+                            <span class="price">Rp 18.000</span>
+                        </div>
+                        <p>Ayam bakar kecap autentik dan nasi hangat, perpaduan manis gurih yang sempurna!</p>
+                    </div>
+                </div>
+
+                <!-- Mie Nyemek -->
+                <!-- Mie Nyemek -->
+                <div class="menu-item" data-category="food" data-name="Mie Nyemek" data-price="10000">
+                    <div class="img-container">
+                        <img src="images/mie_nyemek.jpg" alt="Mie Nyemek">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Mie Nyemek</h3>
+                            <span class="price">Rp 10.000</span>
+                        </div>
+                        <p>Mie Nyemek bumbu medok, kuah kentalnya pecah dimulut!</p>
+                    </div>
+                </div>
+
+                <!-- Ayam Kampung -->
+                <!-- Ayam Kampung -->
+                <div class="menu-item" data-category="food" data-name="Ayam Kampung" data-price="50000">
+                    <div class="img-container">
+                        <img src="images/ayam_kampung.jpg" alt="Ayam Kampung">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Ayam Kampung</h3>
+                            <span class="price">Rp 50.000</span>
+                        </div>
+                        <p>Tekstur juara, rasa premium! enaknya gak kaleng-kaleng</p>
+                    </div>
+                </div>
+
+                <!-- Ayam Pejantan -->
+                <!-- Ayam Pejantan -->
+                <div class="menu-item" data-category="food" data-name="Ayam Pejantan" data-price="45000">
+                    <div class="img-container">
+                        <img src="images/ayam_pejantan.jpg" alt="ayam pejantan">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Ayam Pejantan</h3>
+                            <span class="price">Rp 45.000</span>
+                        </div>
+                        <p>Pecinta ayam pasti suka, perpaduan rempahnya beneran next level!</p>
+                    </div>
+                </div>
+
+                <!-- CEMILAN -->
+                <!-- Kenyang Goreng -->
+                <!-- Kenyang Goreng -->
+                <div class="menu-item" data-category="cemilan" data-name="Kentang Goreng" data-price="10000">
+                    <div class="img-container">
+                        <img src="images/kentang_goreng.jpg" alt="Kentang Goreng">
+                        <span class="badge">Viral</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Kentang Goreng</h3>
+                            <span class="price">Rp 10.000</span>
+                        </div>
+                        <p>Kentang Goreng maknyos!</p>
+                    </div>
+                </div>
+
+                <!-- Bakso Bakar -->
+                <!-- Bakso Bakar -->
+                <div class="menu-item" data-category="cemilan" data-name="Bakso Bakar" data-price="10000">
+                    <div class="img-container">
+                        <img src="images/bakso_bakar.jpg" alt="Bakso Bakar">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Bakso Bakar</h3>
+                            <span class="price">Rp 10.000</span>
+                        </div>
+                        <p>Bakso dengan aroma smoky dengan paduan saosnya, Nagih!</p>
+                    </div>
+                </div>
+
+                <!-- Sosis Bakar -->
+                <!-- Sosis Bakar -->
+                <div class="menu-item" data-category="cemilan" data-name="Sosis Bakar" data-price="10000">
+                    <div class="img-container">
+                        <img src="images/sosis_bakar.jpg" alt="Sosis Bakar">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Sosis Bakar</h3>
+                            <span class="price">Rp 10.000</span>
+                        </div>
+                        <p>Sosis dengan aroma smoky dengan paduan saosnya, Bikin Nagih!</p>
+                    </div>
+                </div>
+
+                <!-- Nugget -->
+                <!-- Nugget -->
+                <div class="menu-item" data-category="cemilan" data-name="Nugget" data-price="10000">
+                    <div class="img-container">
+                        <img src="images/nugget.jpg" alt="Nugget">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Nugget</h3>
+                            <span class="price">Rp 10.000</span>
+                        </div>
+                        <p>Tekstur krispi dari nuggetnya pecah dimulut!</p>
+                    </div>
+                </div>
+
+                <!-- DRINKS -->
+                <!-- Es Teh -->
+                <!-- Es Teh -->
+                <div class="menu-item" data-category="drink" data-name="Es Teh" data-price="5000">
+                    <div class="img-container">
+                        <img src="images/es_teh.jpeg" alt="Es Teh">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Es Teh</h3>
+                            <span class="price">Rp 5.000</span>
+                        </div>
+                        <p>Es teh manis klasik. Simple tapi ngangenin.</p>
+                    </div>
+                </div>
+
+                <!-- Es Kelapa Muda -->
+                <!-- Es Kelapa Muda -->
+                <div class="menu-item" data-category="drink" data-name="Es Kelapa Muda" data-price="6000">
+                    <div class="img-container">
+                        <img src="images/es_kelapa_muda.jpg" alt="Es Kelapa Muda">
+                        <span class="badge">Must Try</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Es Kelapa Muda</h3>
+                            <span class="price">Rp 6.000</span>
+                        </div>
+                        <p>Rasa kelapa muda yang menyegarkan!</p>
+                    </div>
+                </div>
+
+                <!-- Kopi Susu -->
+                <!-- Kopi Susu -->
+                <div class="menu-item" data-category="drink" data-name="Kopi Susu" data-price="4000">
+                    <div class="img-container">
+                        <img src="images/kopi_susu.jpeg" alt="Kopi Susu">
+                        <span class="badge">Must Try</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Kopi Susu</h3>
+                            <span class="price">Rp 4.000</span>
+                        </div>
+                        <p>perpaduan kopi dan susu yang creamy dan smoth setiap sedotan!</p>
+                    </div>
+                </div>
+
+                <!-- Kopi Hitam -->
+                <!-- Kopi Hitam -->
+                <div class="menu-item" data-category="drink" data-name="Kopi Hitam" data-price="4000">
+                    <div class="img-container">
+                        <img src="images/kopi_hitam.jpg" alt="Kopi Hitam">
+                        <span class="badge">Must Try</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Kopi Hitam</h3>
+                            <span class="price">Rp 4.000</span>
+                        </div>
+                        <p>Aroma kopi yang kuat dan rasa yang mantap, bikin auto melek!</p>
+                    </div>
+                </div>
+
+                <!-- Es Jeruk Nipis -->
+                <!-- Es Jeruk Nipis -->
+                <div class="menu-item" data-category="drink" data-name="Es Jeruk Nipis" data-price="5000">
+                    <div class="img-container">
+                        <img src="images/es_jeruk_nipis.jpeg" alt="Es Jeruk Nipis">
+                        <span class="badge">Must Try</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Es Jeruk Nipis</h3>
+                            <span class="price">Rp 5.000</span>
+                        </div>
+                        <p>Kesegaran Jeruk Nipis yang tiada tara!</p>
+                    </div>
+                </div>
+
+                <!-- Es Campur -->
+                <!-- Es Campur -->
+                <div class="menu-item" data-category="drink" data-name="Es Campur" data-price="8000">
+                    <div class="img-container">
+                        <img src="images/es_campur.jpg" alt="Es Campur">
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Es Campur</h3>
+                            <span class="price">Rp 8.000</span>
+                        </div>
+                        <p>Es campur dengan sirup manis dan susu kental manis.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Ramadan Bukber Promo Section (Controlled by JS) -->
+    <section id="bukber-promo" class="bukber-section" style="display: none;">
+        <div class="container">
+            <h2 class="section-title">Paket Bukber Ramadhan</h2>
+            <div class="menu-grid">
+                <!-- Data attributes used for JS logic -->
+                <div class="menu-item bukber-item" data-name="Paket Bukber A" data-price="75000">
+                    <div class="img-container">
+                        <img src="images/ramadhan_paketA.jpg" alt="Paket Bukber A">
+                        <span class="badge">Ramadhan Special</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Paket Bukber A</h3>
+                            <span class="price">Rp 75.000</span>
+                        </div>
+                        <p>1 ekor ayam kampung + 1 sate jeroan + 1 bakul nasi + 1 sayur bening + 1 sambal Dapur Bajang +
+                            1 pelecing kampung + 2 air mineral</p>
+                    </div>
+                </div>
+
+                <div class="menu-item bukber-item" data-name="Paket Bukber B" data-price="55000">
+                    <div class="img-container">
+                        <img src="images/ramadhan_paketB.jpg" alt="Paket Bukber B">
+                        <span class="badge">Ramadhan Special</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Paket Bukber B</h3>
+                            <span class="price">Rp 55.000</span>
+                        </div>
+                        <p>1 ekor ayam pejantan + 1 bakul nasi + 1 sayur bening + 1 sambal Dapur Bajang +
+                            1 pelecing kampung + 2 air mineral</p>
+                    </div>
+                </div>
+
+                <div class="menu-item bukber-item" data-name="Paket Bukber C" data-price="55000">
+                    <div class="img-container">
+                        <img src="images/ramadhan_paketC.jpg" alt="Paket Bukber C">
+                        <span class="badge">Ramadhan Special</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Paket Bukber C</h3>
+                            <span class="price">Rp 55.000</span>
+                        </div>
+                        <p>3 ekor ikan nila + 1 bakul nasi + 1 sayur bening + 1 sambal Dapur Bajang +
+                            1 pelecing kampung + 2 air mineral</p>
+                    </div>
+                </div>
+
+                <div class="menu-item bukber-item" data-name="Paket Bukber D" data-price="95000">
+                    <div class="img-container">
+                        <img src="images/ramadhan_paketD.jpeg" alt="Paket Bukber D">
+                        <span class="badge">Ramadhan Special</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Paket Bukber D</h3>
+                            <span class="price">Rp 95.000</span>
+                        </div>
+                        <p>1 ekor ayam pejantan + 2 ekor ikan nila + 2 bakul nasi + 2 sayur bening + 2 sambal Dapur
+                            Bajang + 2 pelecing kampung + 4 gelas es teh</p>
+                    </div>
+                </div>
+
+                <div class="menu-item bukber-item" data-name="Paket Bukber E" data-price="110000">
+                    <div class="img-container">
+                        <img src="images/ramadhan_paketE.jpg" alt="Paket Bukber E">
+                        <span class="badge">Ramadhan Special</span>
+                    </div>
+                    <div class="item-info">
+                        <div class="title-row">
+                            <h3>Paket Bukber E</h3>
+                            <span class="price">Rp 110.000</span>
+                        </div>
+                        <p>1 ekor ayam kampung + 1 sate jeroan + 2 ekor ikan nila + 2 bakul nasi + 2 sayur bening + 2
+                            sambal Dapur Bajang + 2 pelecing kampung + 4 gelas es teh</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <button id="bukberCtaBtn" class="btn btn-primary">Pesan Paket Bukber <i
+                        class="fas fa-utensils"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>Vibe Check:<br>Positive Only!</h2>
+                <p>Kita bukan cuma tempat makan, tapi safe space buat lo semua. Mau nugas, curhat, atau bengong doang,
+                    gas aja ke sini.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="number">100+</span>
+                        <span class="label">Happy Faces</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">24/7</span>
+                        <span class="label">Always Viral</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="images/background2.jpeg" alt="Interior Kafe">
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Order Section (Hidden by default, shown via JS) -->
+    <section id="orderSection" class="order-section">
+        <div class="container">
+            <h2 class="section-title">Formulir Pesanan</h2>
+            <div class="order-container">
+                <!-- Input Nama Pemesan Wajib -->
+                <div class="input-group">
+                    <label for="dailyCustomerName">Nama Pemesan <span style="color:red">*</span></label>
+                    <input type="text" id="dailyCustomerName" class="input-name" placeholder="Masukkan nama Anda..."
+                        required>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="order-table" id="orderTable">
+                        <thead>
+                            <tr>
+                                <th>Menu</th>
+                                <th>Harga</th>
+                                <th>Jumlah</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="orderTableBody">
+                            <!-- Rows injected by JS -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="checkout-area">
+                    <div class="service-type-box">
+                        <h3>Pilih Layanan</h3>
+                        <div class="radio-group-horizontal">
+                            <label class="radio-card">
+                                <input type="radio" name="serviceType" value="Makan di Tempat" checked>
+                                <span class="radio-content">
+                                    <i class="fas fa-utensils"></i>
+                                    <span>Dine In</span>
+                                </span>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="serviceType" value="COD">
+                                <span class="radio-content">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <span>COD</span>
+                                </span>
+                            </label>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- COD Details (Hidden by default) -->
+                    <div id="dailyCodDetails" class="cod-details" style="display: none;">
+                        <div class="input-group">
+                            <label for="dailyAddress">Alamat Lengkap <span style="color:red">*</span></label>
+                            <textarea id="dailyAddress" class="input-name" rows="3"
+                                placeholder="Jalan, Nomor Rumah, RT/RW..."></textarea>
+                        </div>
+                        <div class="input-group">
+                            <label>Lokasi Pengiriman</label>
+                            <button type="button" id="dailyGetLocationBtn" class="btn-location">
+                                <i class="fas fa-map-marker-alt"></i> Pilih Lokasi di Google Maps
+                            </button>
+                            <p id="dailyLocationStatus" class="location-status"></p>
+                            <input type="hidden" id="dailyMapsLink">
+                        </div>
+                    </div>
+
+                    <div class="grand-total-box">
+                        <span>Total Pembayaran</span>
+                        <span class="grand-total-amount" id="grandTotal">Rp 0</span>
+                    </div>
+
+                    <button class="btn btn-primary btn-block btn-lg" id="sendOrderBtn">
+                        Pesan via WhatsApp <i class="fab fa-whatsapp"></i>
+                    </button>
+
+                    <button class="btn-text" id="backToMenuBtn">
+                        <i class="fas fa-arrow-left"></i> Kembali ke Menu
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bukber Order Section (Hidden by default, shown via JS) -->
+    <section id="bukberOrderSection" class="order-section">
+        <div class="container">
+            <h2 class="section-title">Pesanan Paket Bukber</h2>
+            <div class="order-container">
+                <!-- Input Nama Pemesan Wajib -->
+                <div class="input-group">
+                    <label for="bukberCustomerName">Nama Pemesan <span style="color:red">*</span></label>
+                    <input type="text" id="bukberCustomerName" class="input-name" placeholder="Masukkan nama Anda..."
+                        required>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="order-table" id="bukberOrderTable">
+                        <thead>
+                            <tr>
+                                <th>Paket</th>
+                                <th>Harga</th>
+                                <th>Jumlah</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="bukberOrderTableBody">
+                            <!-- Rows injected by JS -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="checkout-area">
+                    <div class="service-type-box">
+                        <h3>Pilih Layanan</h3>
+                        <div class="radio-group-horizontal">
+                            <label class="radio-card">
+                                <input type="radio" name="bukberServiceType" value="Makan di Tempat" checked>
+                                <span class="radio-content">
+                                    <i class="fas fa-utensils"></i>
+                                    <span>Dine In</span>
+                                </span>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="bukberServiceType" value="COD">
+                                <span class="radio-content">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <span>COD</span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- COD Details (Hidden by default) -->
+                    <div id="bukberCodDetails" class="cod-details" style="display: none;">
+                        <div class="input-group">
+                            <label for="bukberAddress">Alamat Lengkap <span style="color:red">*</span></label>
+                            <textarea id="bukberAddress" class="input-name" rows="3"
+                                placeholder="Jalan, Nomor Rumah, RT/RW..."></textarea>
+                        </div>
+                        <div class="input-group">
+                            <label>Lokasi Pengiriman</label>
+                            <button type="button" id="bukberGetLocationBtn" class="btn-location">
+                                <i class="fas fa-map-marker-alt"></i> Pilih Lokasi di Google Maps
+                            </button>
+                            <p id="bukberLocationStatus" class="location-status"></p>
+                            <input type="hidden" id="bukberMapsLink">
+                        </div>
+                    </div>
+
+                    <div class="grand-total-box">
+                        <span>Total Pembayaran</span>
+                        <span class="grand-total-amount" id="bukberGrandTotal">Rp 0</span>
+                    </div>
+
+                    <button class="btn btn-primary btn-block btn-lg" id="sendBukberOrderBtn">
+                        Pesan Bukber via WhatsApp <i class="fab fa-whatsapp"></i>
+                    </button>
+
+                    <button class="btn-text" id="backToBukberMenuBtn">
+                        <i class="fas fa-arrow-left"></i> Kembali ke Menu
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div>
+                <img src="images/logo_dapur_bajang.png">
+            </div>
+            <div class="footer-logo">DapurBajang.</div>
+            <div class="socials">
+                <a href="https://www.instagram.com/dapurbajang?igsh=YWhkY2Zzd3NsNmM2"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://bit.ly/TantowiJauhari"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; DapurBajang. Dames Damai Kecamatan Suralaga, Lombok, Nusa Tenggara Barat, Indonesia 83651.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
