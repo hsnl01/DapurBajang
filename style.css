@@ -148,7 +148,7 @@ ul {
     padding: 0 5%;
     position: relative;
     overflow: hidden;
-    background: url('images/background2.jpeg') no-repeat center center/cover;
+    background: url('images/background1.jpeg') no-repeat center center/cover;
 }
 
 .hero::after {
@@ -748,3 +748,4 @@ footer p {
     }
 
 }
+
